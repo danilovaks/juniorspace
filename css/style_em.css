@@ -1,12 +1,12 @@
 /*
-#45357A
-#57C2B5
-#7C7C7D
+#45357A фиолетовый 
+#57C2B5 зеленый
+#7C7C7D grey
 */
 
 body {
 	margin: 0 auto;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	color: #7C7C7D;
@@ -40,7 +40,7 @@ body {
 
 h1 {
 	margin: 0;
-	font-size: 1.5em;
+	font-size: 28px;
 	line-height: 1.5em;
 	font-weight: lighter;
 }
