@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Личный кабинет работодателя</title>
+    <meta charset="utf-8">
+    <meta name="description" content="juniorspace">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/style_em.css">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+</head>
+
+<body>
+    <header class="heading">
+        <div class="transition">
+            <a href="#">ГЛАВНАЯ</a>
+            <a href="#">ВЫХОД</a>
+        </div>
+        <div class="head">
+            <h1>Личный кабинет работодателя</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <nav class="navigator">
+                <ul>
+                    <li class="nav-li highlight"><a href="#">профиль</a></li>
+                    <li class="nav-li"><a href="#">выбранные соискатели</a></li>
+                    <li class="nav-li"><a href="#">мои предложения</a></li>
+                    <li class="nav-li"> <a href="#">создать объявление</a></li>
+                </ul>
+            </nav>
+
+            <section class="info">
+
+                <div id="block1">
+                    <form class="profil" action="#" method="POST" enctype="multipart/form-data" autocomplete="on">
+
+                        <fieldset class="section-logo">
+                            <div class="icon">
+                                <label>
+                                    <input type="file" multiple accept="jpg"> <img src="image/icon.png">
+                                </label>
+                            </div>
+                            <span>загрузить логотип организации (не более 100*100px)</span>
+                        </fieldset>
+
+                        <fieldset class="section-one">
+
+                            <label>название организации
+                                <input type="text" placeholder="введите название своей организации" required>
+                            </label>
+
+                            <label>описание деятельности
+                                <textarea cols="59" rows="6" placeholder="" required></textarea>
+                            </label>
+
+                            <label>город</label>
+                                <select size="1">
+                                    <option selected>выберите город</option>
+                                    <option>Санкт-Петербург</option>
+                                    <option>Нижний Новгород</option>
+                                    <option>Екатеринбург</option>
+                                    <option>Казань</option>
+                                    <option>Архангельск</option>
+                                </select>
+                        </fieldset>
+
+                        <fieldset class="section-two">
+                            <legend>контактное лицо</legend>
+                            <input type="text" placeholder="введите имя" required>
+
+                            <legend>контактный телефон</legend>
+                            <input type="tel" placeholder="введите номер телефона" required>
+
+                            <legend>email</legend>
+                            <input type="email" placeholder="введите ваш email" required>
+
+                            <legend>сайт организации</legend>
+                            <input type="url" placeholder="www." required>
+                        </fieldset>
+
+                        <fieldset class="section-three">
+                            <input class="sub" type="submit" value="сохранить данные"></input>
+                        </fieldset>
+
+                    </form>
+                </div>
+
+                <div class="applicant"></div>
+                <div class="proposal"></div>
+
+                <div id="block4">
+                    <form class="vacancies" action="#" method="POST" enctype="multipart/form-data" autocomplete="on">
+
+                        <fieldset class="section-logo">
+                            <div class="logo">
+                                <img src="image/icon.png">
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="section-one">
+
+                            <label>название организации
+                                <input type="text" placeholder="введите название своей организации" required>
+                            </label>
+
+                            <label>описание деятельности
+                                <textarea cols="59" rows="6" placeholder="" required></textarea>
+                            </label>
+
+                            <label>город</label>
+                                <select size="1">
+                                    <option selected>выберите город</option>
+                                    <option>Санкт-Петербург</option>
+                                    <option>Нижний Новгород</option>
+                                    <option>Екатеринбург</option>
+                                    <option>Казань</option>
+                                    <option>Архангельск</option>
+                                </select>
+                        </fieldset>
+
+                        <fieldset class="section-two">
+                            <legend>контактное лицо</legend>
+                            <input type="text" placeholder="введите имя" required>
+
+                            <legend>контактный телефон</legend>
+                            <input type="tel" placeholder="введите номер телефона" required>
+
+                            <legend>email</legend>
+                            <input type="email" placeholder="введите ваш email" required>
+
+                            <legend>сайт организации</legend>
+                            <input type="url" placeholder="www." required>
+                        </fieldset>
+
+                        <fieldset class="section-three">
+                            <input class="sub" type="submit" value="сохранить данные"></input>
+                        </fieldset>
+
+                    </form>
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
